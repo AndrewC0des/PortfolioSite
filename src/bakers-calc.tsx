@@ -19,7 +19,7 @@ function BakersCalc() {
       flour2 && flour ? Math.round((flour2 / flour) * 100) : undefined
     );
   }, [flour, flour2]);
-
+  //test comment
   useEffect(() => {
     setFlour2(
       flour && flour2Percent
