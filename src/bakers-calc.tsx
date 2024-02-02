@@ -4,7 +4,6 @@ import {
   Container,
   Grid,
   InputAdornment,
-  Slider,
   TextField,
   Typography,
 } from "@mui/material";
