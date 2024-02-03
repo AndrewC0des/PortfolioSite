@@ -6,7 +6,7 @@ export default function Home() {
         <p>
           This is a place for me to host some tools I find useful and projects I
           build! <br /> P.S. if you are a recruiter or looking to hire me, check
-          out my
+          out my{" "}
           <a href="PortfolioSite/super-secret">
             Super Secret Recruiter Page &trade;
           </a>
