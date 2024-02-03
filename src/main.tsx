@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 // import App from "./App.tsx";
-import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import { createHashRouter, RouterProvider } from "react-router-dom";
 import "./index.css";
 import Root from "./root/root";
 import ErrorPage from "./error-page";
@@ -9,7 +9,7 @@ import BakersCalc from "./bakers-calc";
 import Home from "./home";
 import SuperSecretPage from "./super-secret-page";
 
-const router = createBrowserRouter([
+const router = createHashRouter([
   {
     path: "/PortfolioSite",
     element: <Root />,
