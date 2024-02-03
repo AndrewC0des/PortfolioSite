@@ -11,7 +11,7 @@ import SuperSecretPage from "./super-secret-page";
 
 const router = createHashRouter([
   {
-    path: "/PortfolioSite",
+    path: "/*",
     element: <Root />,
     errorElement: <ErrorPage />,
     children: [
