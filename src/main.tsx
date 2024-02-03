@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 // import App from "./App.tsx";
-import { createHashRouter, RouterProvider } from "react-router-dom";
+import { createHashRouter, HashRouter, RouterProvider } from "react-router-dom";
 import "./index.css";
 import Root from "./root/root";
 import ErrorPage from "./error-page";
@@ -33,6 +33,8 @@ const router = createHashRouter([
 
 ReactDOM.createRoot(document.getElementById("root")!).render(
   <React.StrictMode>
-    <RouterProvider router={router} />
+    <HashRouter>
+      <RouterProvider router={router} />
+    </HashRouter>
   </React.StrictMode>
 );
