@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 // import App from "./App.tsx";
-import { createHashRouter, HashRouter, RouterProvider } from "react-router-dom";
+import { createHashRouter, RouterProvider } from "react-router-dom";
 import "./index.css";
 import Root from "./root/root";
 import ErrorPage from "./error-page";
