@@ -11,7 +11,7 @@ import SuperSecretPage from "./super-secret-page";
 
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: "/PortfolioSite",
     element: <Root />,
     errorElement: <ErrorPage />,
     children: [
