@@ -1,4 +1,4 @@
-import React, { useState, ChangeEvent, useEffect } from "react";
+import React, { useState, useEffect } from "react";
 import LetterBox from "./LetterBox";
 
 interface LetterBoxProps {
@@ -20,10 +20,8 @@ const LetterRow: React.FC<LetterBoxProps> = ({
   needsReset,
 }) => {
   const [word, setWord] = useState("");
-  const [curRowState, setRowState] = useState(rowState);
 
   useEffect(() => {
-    setRowState(rowState);
     if (rowState === RowState.ENABLED) {
       setWord(currentGuess);
     }
@@ -32,7 +30,6 @@ const LetterRow: React.FC<LetterBoxProps> = ({
   useEffect(() => {
     if (needsReset) {
       setWord("");
-      setRowState(RowState.DISABLED);
     }
   }, [needsReset]);
 

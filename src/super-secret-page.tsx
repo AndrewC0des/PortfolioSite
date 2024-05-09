@@ -1,6 +1,5 @@
 import { Typography } from "@mui/material";
 import Spiral from "./components/Spiral";
-import { Margin } from "@mui/icons-material";
 
 export default function SuperSecretPage() {
   return (

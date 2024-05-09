@@ -1,5 +1,4 @@
-import React, { useState, ChangeEvent, useEffect } from "react";
-import LetterBox from "./LetterBox";
+import React, { useState, useEffect } from "react";
 import LetterRow from "./LetterRow";
 import MovingButton from "./MovingButton";
 
