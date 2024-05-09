@@ -1,4 +1,4 @@
-export default function Sprial() {
+export default function Spiral() {
   return (
     <>
       <div className="container">

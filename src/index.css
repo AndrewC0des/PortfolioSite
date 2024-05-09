@@ -19,16 +19,9 @@ a {
   text-decoration: inherit;
 }
 a:hover {
-  color: #535bf2;
+  color: #f7e226;
 }
 
-body {
-  margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
-}
 
 h1 {
   font-size: 3.2em;
@@ -60,12 +53,11 @@ button:focus-visible {
   padding: 50px;
   max-width: 60%;
 }
-.secret-content {
+
+.centered {
   position: absolute;
-  top: 25%;
-  left: 35vw;
-  padding: 50px;
-  max-width: 60%;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 .bread-input {
@@ -93,6 +85,9 @@ button:focus-visible {
   -webkit-animation-iteration-count: infinite; 
   -webkit-animation-timing-function: linear;
   -webkit-animation-duration: 3s; 
+  margin-bottom: 20px;
+  margin-left: 30px;
+  border-radius: 100%;
 }
 .spiral1,.spiral2,.spiral3,.spiral4 {
   position: absolute;
@@ -101,6 +96,7 @@ button:focus-visible {
   margin: 0;
   padding: 0;
   background-color: #eee;
+  border-radius: 100%;
 }
 .spiral1 {
   left: 0;
@@ -132,9 +128,6 @@ button:focus-visible {
   border-top: none;
 }
 
-div {
-  border-radius: 100%;
-}
 @-webkit-keyframes spin {  
 from {  
   -webkit-transform: rotate(0deg);  

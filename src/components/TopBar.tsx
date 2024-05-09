@@ -15,7 +15,8 @@ interface topLinks {
   link: string;
 }
 const pages: topLinks[] = [
-  // { name: "Bakers Calculator", link: "/bakers-calculator" },
+  // { name: "Bakers Calculator", link: "#/bakers-calculator" },
+  { name: "Word Game", link: "#/word-game" },
 ];
 
 function TopBar() {

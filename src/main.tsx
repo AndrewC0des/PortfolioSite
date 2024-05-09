@@ -8,6 +8,7 @@ import ErrorPage from "./error-page";
 import BakersCalc from "./bakers-calc";
 import Home from "./home";
 import SuperSecretPage from "./super-secret-page";
+import WordGame from "./wordGame";
 
 const router = createHashRouter([
   {
@@ -22,6 +23,10 @@ const router = createHashRouter([
       {
         path: "bakers-calculator",
         element: <BakersCalc />,
+      },
+      {
+        path: "word-game",
+        element: <WordGame />,
       },
       {
         path: "super-secret",
