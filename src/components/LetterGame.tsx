@@ -72,7 +72,7 @@ const LetterGame: React.FC<LetterGameProps> = ({ targetWord }) => {
       </div>
       <div>
         {gameOver ? (
-          <MovingButton text="Push this button to go with different candidate" />
+          <h2>{curGuess === targetWord ? "You win!" : "You lose!"}</h2>
         ) : (
           <h2>
             {curGuess.length === targetWord.length
