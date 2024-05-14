@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react";
 import LetterRow from "./LetterRow";
-import MovingButton from "./MovingButton";
 
 interface LetterGameProps {
   targetWord: string;
